@@ -8,7 +8,16 @@ def normalize_priority(priority: str) -> str:
     allowed = {"low", "medium", "high"}
     value = priority.strip().lower()
     return value if value in allowed else "medium"
+##new function
+def clean_title(title: str) -> str:
+    if not title or not title.strip():
+        raise ValueError("Title cannot be empty or be whitespace only.")
+    return title.strip()
 
 if __name__ == "__main__":
     print(slugify_title("  Ship the Release  "))
     print(normalize_priority("URGENT"))
+    try:
+        print(clean_title(" "))
+    except ValueError as e:
+        print(e)

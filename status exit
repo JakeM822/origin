@@ -1,0 +1,26 @@
+[33mcommit 9b755b7fbc775d8eb65695eb3b43830ec68b610b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: JakeM822 <jakemedica@gmail.com>
+Date:   Mon Jun 22 16:44:18 2026 +0000
+
+    Fix nested repo and add taskflow files
+
+ README.md         |  1 [32m+[m
+ app/_init_.py     |  0
+ app/text_utils.py | 11 [32m++++++++++[m[31m-[m
+ requirments.txt   |  0
+ 4 files changed, 11 insertions(+), 1 deletion(-)
+
+[33mcommit 2514618595dc40bb927bbb9a0a884f6a614bbde1[m[33m ([m[1;31morigin/feature/text-utils[m[33m)[m
+Author: Training <training@ip-172-31-28-191.us-east-2.compute.internal>
+Date:   Mon Jun 22 15:31:43 2026 +0000
+
+    Add TaskFlow text utilities and project skeleton
+
+ .env.example      |  3 [32m+++[m
+ .gitignore        |  4 [32m++++[m
+ README.md         |  0
+ app/__init__.py   |  0
+ app/text_utils.py | 14 [32m++++++++++++++[m
+ requirements.txt  |  1 [32m+[m
+ tests/__init__.py |  0
+ 7 files changed, 22 insertions(+)
